@@ -14,10 +14,6 @@ function put(k, v, t) {
   }
 }
 
-function get(k) {
-  get(k, '');
-}
-
 function get(k, def) {
   var deadtime = parseInt(wx.getStorageSync(k + postfix))
   if (deadtime) {

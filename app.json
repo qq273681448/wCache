@@ -4,8 +4,8 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#67CF22",
     "navigationBarTitleText": "Wcache",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   }
 }
