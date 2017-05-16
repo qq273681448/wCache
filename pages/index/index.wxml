@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+<text>data:{{text?text:'无数据'}}</text>
+<button class="" bindtap="get" data-type="def">get(k)</button>
+<button class="" bindtap="get" data-type="string">get(k,'你好')带默认值string</button>
+<button class="" bindtap="get" data-type="json">get(k,{"a":"1"})带默认值json</button>
+
+<button class="" bindtap="put" data-type="string">put(k,string)默认永久</button>
+<button class="" bindtap="put" data-type="json">put(k,json,2)有效期2秒</button>
+<button class="" bindtap="put" data-type="list">put(k,数组)</button>
+<button class="" bindtap="put" data-type="boolean">put(k,boolean)</button>
+<text>…………</text>
+</view>
