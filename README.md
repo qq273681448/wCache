@@ -1,16 +1,16 @@
 # wCache
 微信小程序缓存框架，支持数组、json、字符串……支持设置缓存时间、支持缓存读取失败默认值。
 # 公共方法
-## 方法put(k, v, t)
+## put(k, v, t)
 k为key，v为具体内容（支持字符串、json、数组、boolean等等），t为可选参数表示过期时间（单位：秒）<br>
 如存储k为123过期时间1秒，则调用put('k', '123', 1)方法；若永久存储调用put('k', '123')<br>
 永久保存json：put('k', {"a":"1"})，数组、boolean等同理。
-## 方法get(k, def)
+## get(k, def)
 k为key，def为可选参数，表示无缓存数据时返回值（支持字符串、json、数组、boolean等等）<br>
 如读取k缓存，则调用get('k')；若想要无缓存时，返回默认值则get('k','默认值')，支持各个数据类型。<br>
-## 方法remove(k)
+## remove(k)
 移除某个key
-## 方法clear()
+## clear()
 清空所有key
 ## other
 使用wx原生的即可。<br>
