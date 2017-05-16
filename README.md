@@ -20,6 +20,6 @@ k为key，def为可选参数，表示无缓存数据时返回值（支持字符�
 2. 需要使用的js文件头加入var wc = require('../../src/wcache.js')。
 3. var s=wc.get('k', '你好')、wc.put('k', 'string你好啊')等;
 
-源码解释见：https://juejin.im/post/591af2b3128fe1005ce29230<br>
+源码解释见：https://juejin.im/post/591af94b2f301e006bc61687<br>
 
 
