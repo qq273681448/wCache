@@ -1,4 +1,4 @@
-var wc = require('../../utils/wcache.js')
+var wc = require('../../src/wcache.js')
 //获取应用实例
 var app = getApp()
 Page({
